@@ -50,15 +50,15 @@ X-H deviation from ideal after  regularization (bond): mean= 0.000 max= 0.000
 
 DEVIATIONS FROM IDEAL VALUES.
                RMSD     MAX  COUNT
- BOND      :  0.088   0.161    666
- ANGLE     :  1.467  13.248   1119
+ BOND      :  0.086   0.161    624
+ ANGLE     :  1.497  13.248   1049
  CHIRALITY :  0.066   0.170     42
- PLANARITY :  0.005   0.025     73
- DIHEDRAL  : 11.004  88.812    210
+ PLANARITY :  0.005   0.025     59
+ DIHEDRAL  :  9.772  88.812    196
  MIN NONBONDED DISTANCE : 1.320 
 
 MOLPROBITY STATISTICS.
- ALL-ATOM CLASHSCORE : 17.94
+ ALL-ATOM CLASHSCORE : 15.76
  RAMACHANDRAN PLOT:
    OUTLIERS : 0.00  %
    ALLOWED  : 0.00  %
@@ -71,4 +71,4 @@ MOLPROBITY STATISTICS.
    TWISTED PROLINE : 0
    TWISTED GENERAL : 0
 -------------------------------------------------------------------------------
-Time: 24.9686
+Time: 24.4364
