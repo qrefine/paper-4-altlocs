@@ -1,0 +1,243 @@
+Startfile from command line: /home/qr/paper-4-altlocs/1bdw/qm_ala/ase/2/2_capping.sp
+
+
+       ***********************************************************
+       *                    TeraChem v1.99-Dev                   *
+       *                 Hg Version: 905277915b92                *
+       *                   Production Version                    *
+       *                Compiled without textures                *
+       *           Chemistry at the Speed of Graphics!           *
+       ***********************************************************
+       * This program may only be used in connection with        *
+       * a valid license from PetaChem, LLC. Use of this program *
+       * or results thereof indicates acceptance of all terms    *
+       * and conditions stated in the license and that a valid   *
+       * license agreement between the user and PetaChem, LLC    *
+       * exists. PetaChem, LLC does not warrant the correctness  *
+       * of results or their suitability for any purpose.        *
+       * Please email bugs, suggestions, and comments to         *
+       *                  help@petachem.com                      *
+       *                                                         *
+       ***********************************************************
+
+
+       ***********************************************************
+       *  Compiled by toddmtz      Mon Dec 19 00:49:32 PST 2016  *
+       *  Supported architectures: sm_30 sm_50 sm_60             *
+       *  Cuda compilation tools, release 8.0, V8.0.44           *
+       ***********************************************************
+
+
+ Job started   Fri Nov  3 04:55:07 2017
+ On cu02 (available memory: 146233 MB)
+
+######################################### RUNTIME INFO ##########################################
+/opt/qmsoft/tc/TeraChem/bin/terachem /home/qr/paper-4-altlocs/1bdw/qm_ala/ase/2/2_capping.sp 
+
+NVRM version: NVIDIA UNIX x86_64 Kernel Module  375.39  Tue Jan 31 20:47:00 PST 2017
+GCC version:  gcc version 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) 
+
+	linux-vdso.so.1 =>  (0x00007fffdcfd9000)
+	libcurl.so.4 => /lib64/libcurl.so.4 (0x00002b0f2c65b000)
+	libintbox.so.1 => /opt/qmsoft/tc/TeraChem/lib/libintbox.so.1 (0x00002b0f2c8c3000)
+	libthcbox.so.1 => /opt/qmsoft/tc/TeraChem/lib/libthcbox.so.1 (0x00002b0f44807000)
+	libgridbox.so.1 => /opt/qmsoft/tc/TeraChem/lib/libgridbox.so.1 (0x00002b0f45e1f000)
+	libdftbox.so.1 => /opt/qmsoft/tc/TeraChem/lib/libdftbox.so.1 (0x00002b0f4628e000)
+	libcublas.so.8.0 => /opt/qmsoft/tc/TeraChem/lib/libcublas.so.8.0 (0x00002b0f4659f000)
+	libcufft.so.8.0 => /opt/qmsoft/tc/TeraChem/lib/libcufft.so.8.0 (0x00002b0f48f4f000)
+	libcuda.so.1 => /lib64/libcuda.so.1 (0x00002b0f51d9d000)
+	libcudart.so.8.0 => /opt/qmsoft/tc/TeraChem/lib/libcudart.so.8.0 (0x00002b0f52792000)
+	libm.so.6 => /lib64/libm.so.6 (0x00002b0f529f8000)
+	libcilkrts.so.5 => /opt/qmsoft/tc/TeraChem/lib/libcilkrts.so.5 (0x00002b0f52cfa000)
+	libstdc++.so.6 => /lib64/libstdc++.so.6 (0x00002b0f52f3b000)
+	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x00002b0f53243000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x00002b0f53459000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x00002b0f53675000)
+	libc.so.6 => /lib64/libc.so.6 (0x00002b0f53879000)
+	/lib64/ld-linux-x86-64.so.2 (0x00002b0f2c437000)
+	libidn.so.11 => /lib64/libidn.so.11 (0x00002b0f53c3a000)
+	libssh2.so.1 => /lib64/libssh2.so.1 (0x00002b0f53e6d000)
+	libssl3.so => /lib64/libssl3.so (0x00002b0f54097000)
+	libsmime3.so => /lib64/libsmime3.so (0x00002b0f542d9000)
+	libnss3.so => /lib64/libnss3.so (0x00002b0f54500000)
+	libnssutil3.so => /lib64/libnssutil3.so (0x00002b0f54826000)
+	libplds4.so => /lib64/libplds4.so (0x00002b0f54a52000)
+	libplc4.so => /lib64/libplc4.so (0x00002b0f54c56000)
+	libnspr4.so => /lib64/libnspr4.so (0x00002b0f54e5b000)
+	libgssapi_krb5.so.2 => /lib64/libgssapi_krb5.so.2 (0x00002b0f55099000)
+	libkrb5.so.3 => /lib64/libkrb5.so.3 (0x00002b0f552e5000)
+	libk5crypto.so.3 => /lib64/libk5crypto.so.3 (0x00002b0f555ca000)
+	libcom_err.so.2 => /lib64/libcom_err.so.2 (0x00002b0f557fc000)
+	liblber-2.4.so.2 => /lib64/liblber-2.4.so.2 (0x00002b0f55a00000)
+	libldap-2.4.so.2 => /lib64/libldap-2.4.so.2 (0x00002b0f55c0f000)
+	libz.so.1 => /lib64/libz.so.1 (0x00002b0f55e62000)
+	librt.so.1 => /lib64/librt.so.1 (0x00002b0f56078000)
+	libnvidia-fatbinaryloader.so.375.39 => /lib64/libnvidia-fatbinaryloader.so.375.39 (0x00002b0f56280000)
+	libssl.so.10 => /lib64/libssl.so.10 (0x00002b0f564cc000)
+	libcrypto.so.10 => /lib64/libcrypto.so.10 (0x00002b0f56739000)
+	libkrb5support.so.0 => /lib64/libkrb5support.so.0 (0x00002b0f56b20000)
+	libkeyutils.so.1 => /lib64/libkeyutils.so.1 (0x00002b0f56d2f000)
+	libresolv.so.2 => /lib64/libresolv.so.2 (0x00002b0f56f33000)
+	libsasl2.so.3 => /lib64/libsasl2.so.3 (0x00002b0f5714d000)
+	libselinux.so.1 => /lib64/libselinux.so.1 (0x00002b0f5736a000)
+	libcrypt.so.1 => /lib64/libcrypt.so.1 (0x00002b0f5758f000)
+	libpcre.so.1 => /lib64/libpcre.so.1 (0x00002b0f577c6000)
+	liblzma.so.5 => /lib64/liblzma.so.5 (0x00002b0f57a27000)
+	libfreebl3.so => /lib64/libfreebl3.so (0x00002b0f57c4c000)
+#################################################################################################
+
+       ********************** License Check **********************
+       * Use license from: /opt/qmsoft/tc/TeraChem/license.dat
+       * Available Host id: 6C92BF4B1804
+       * Available Host id: 6C92BF4B1805
+       * Available Host id: 52540003BC4F
+       * Available Host id: 52540003BC4F
+       * Available Host id: 80000068FE80
+       * License Host id: 6C92BF4B1804
+       * License expires: 2019-10-21
+       ********************** License OK *************************
+  _________________________________
+ |         DFTD3 V3.0 Rev 2        |
+ | S.Grimme, University Bonn       |
+ |           Aug  2013             |
+  _________________________________
+ 
+ Please cite DFT-D3 work done with this code as:
+ S. Grimme, J. Antony, S. Ehrlich and H. Krieg,
+ J. Chem. Phys. 132 (2010), 154104
+ If used with BJ-damping cite also
+ S. Grimme, S. Ehrlich and L. Goerigk,
+ J. Comput. Chem. 32 (2011), 1456-1465
+ For DFT-D2 the reference is
+ S. Grimme, J. Comput. Chem., 27 (2006), 1787-1799
+ 
+Scratch directory: /tmp/qr/paper-4-altlocs/1bdw/qm_ala/ase/2/scr
+Random number seed: 1351351
+
+XYZ coordinates /home/qr/paper-4-altlocs/1bdw/qm_ala/ase/2/2_capping.xyz
+Molden File Output: /tmp/qr/paper-4-altlocs/1bdw/qm_ala/ase/2/scr/2_capping.molden
+Using the following atom-specific basis sets
+Atom type:Se Basis:lanl2dz_ecp
+Atom type:Cl Basis:lanl2dz_ecp
+Atom type:Cd Basis:lanl2dz_ecp
+Atom type:Zn Basis:lanl2dz_ecp
+Atom type:Mg Basis:lanl2dz_ecp
+Using basis set: 6-31g
+Spin multiplicity: 1
+DIIS will use up to 10 vectors.
+WF convergence threshold: 3.00e-05
+Using DIIS algorithm to converge WF
+Maximum number of SCF iterations: 200
+Incremental fock with rebuild ever 8 iterations
+Will switch to conventional Fock if diffuse functions are detected
+X-matrix tolerance: 1.00e-04
+PRECISION: DYNAMIC
+DFT Functional requested: hf
+Method: Hartree-Fock  with dispersion correction
+Wavefunction: RESTRICTED
+Initial guess generated by maximum overlap
+point charges coordinates file: /home/qr/paper-4-altlocs/1bdw/qm_ala/ase/2/2_qxyz_cctbx.dat
+
+
+********************************************
+**** SINGLE POINT GRADIENT CALCULATIONS ****
+********************************************
+SCF:   Initial guess is taken from previous step
+
+using 4 out of 4 CUDA devices
+   Device 0:            Tesla K80, 11439MB, CC 3.7 -- CPU THREAD 0
+   Device 1:            Tesla K80, 11439MB, CC 3.7 -- CPU THREAD 1
+   Device 2:            Tesla K80, 11439MB, CC 3.7 -- CPU THREAD 2
+   Device 3:            Tesla K80, 11439MB, CC 3.7 -- CPU THREAD 3
+-------------------------------------------------------------------
+Compiled with MAGMA support.  MAGMA parameters:
+    Matrices larger than 5000 square will be treated with MAGMA
+       (Change by setting the MagmaMinN environment variable)
+    Magma will use 1 out of 4 GPUs
+       (Change by setting the MagmaNGPUs environment variable)
+-------------------------------------------------------------------
+ CPU Memory Available: 32208.75 MegaWords 
+ GPU Memory Available: 1173.98 MegaWords 
+ Maximum recommended basis set size: 12200 basis functions
+ (limited by GPU memory)
+-------------------------------------------------------------------
+Not using d-functions. Configuring GPUs accordingly. 
+0: CUBLAS initialized, available GPU memory: 6952MB
+1: CUBLAS initialized, available GPU memory: 6952MB
+2: CUBLAS initialized, available GPU memory: 6952MB
+3: CUBLAS initialized, available GPU memory: 6952MB
+
+
+Multiple basis sets used. 
+Total atoms:     544
+Total charge:    3
+Total electrons: 1926 (963-alpha, 963-beta)
+Number electrons modeled by ECPs: 0
+Total orbitals:  2852
+Total AO shells: 1844 (1340 S-shells; 504 P-shells; 0 D-shells; 0 F-shells; 0 G-shells)
+Spin multiplicity: 1
+Nuclear repulsion energy (QM atoms): 106722.162838865886 a.u.
+
+ --------------------------------------------------
+ !! SOME DISTANCES VERY SHORT. CHECK COORDINATES !!
+ --------------------------------------------------
+    Atom1     Atom2       Rij      Threshold
+ ---------- ---------- ---------- ----------
+       37       521     0.63877    1.55713
+       66       523     0.63944    1.55713
+       98       525     0.64012    1.55713
+      138       527     0.63920    1.55713
+      200       533     0.63652    1.55713
+      243       535     0.64036    1.55713
+      501       542     0.63877    1.55713
+ --------------------------------------------------
+Number of MM point charges: 2005
+Total charge from MM point charges: -24.15e
+
+DFTD Energy:    -4.5623338 hartree
+
+                      *** Start SCF Iterations ***
+
+ Iter     DIIS Error       Energy change         Energy        Time(s)
+------------------------------------------------------------------------
+         >>> Purifying P... IDMP = 4.20e-14 <<<
+THRESPDP set to 1.00e+00
+   1     0.4869068429  -11853.8060627172  -11853.8060627172    27.91  
+   2     0.7346811918    +512.1639412593  -11341.6421214579    31.05  
+   3     2.1075886175   +9811.8001714907   -1529.8419499672    34.45  
+   4     1.0446282595   -9259.7598362078  -10789.6017861749    34.07  
+   5     0.3491729415   -1136.0959479097  -11925.6977340847    29.01  
+   6     0.6139263981    +221.5344506011  -11704.1632834836    31.15  
+   7     0.2309199042    -216.6264760756  -11920.7897595592    31.95  
+   8     0.6089742718     +68.1480476252  -11852.6417119340    29.01  
+THRESPDP set to 4.46e-03
+   9     0.3197920708     -87.6738930264  -11940.3156049604    28.06  
+  10     0.1996184254      +1.4732923268  -11938.8423126336    24.67  
+  11     0.0951481733      -2.5793132979  -11941.4216259315    25.41  
+  12     0.0841730132      -0.9471773630  -11942.3688032944    24.65  
+  13     0.0575372678      -2.6259917647  -11944.9947950591    24.28  
+  14     0.0540819127      +0.1029276346  -11944.8918674245    25.00  
+  15     0.0352698913      -0.8533485032  -11945.7452159278    25.17  
+  16     0.0485647001      +0.0010233314  -11945.7441925963    23.10  
+THRESPDP set to 5.15e-05
+  17     0.0313260338      -0.1954479644  -11945.9396405608    29.39  
+  18     0.0470388907      +0.5224420557  -11945.4171985051    25.74  
+  19     0.0202546888      -0.6122049347  -11946.0294034397    24.18  
+  20     0.0136135789      -0.0227475764  -11946.0521510161    20.19  
+  21     0.0063873316      -0.0095889821  -11946.0617399982    18.72  
+  22     0.0048058640      -0.0037986208  -11946.0655386190    19.45  
+  23     0.0034573946      -0.0025370394  -11946.0680756584    18.51  
+  24     0.0026041602      -0.0015502882  -11946.0696259466    17.42  
+  25     0.0016602635      -0.0012900250  -11946.0709159716    30.52  
+  26     0.0005017843      -0.0012838440  -11946.0721998156    18.62  
+  27     0.0003947936      -0.0004926772  -11946.0726924928    17.38  
+  28     0.0003832209      -0.0003354017  -11946.0730278944    17.05  
+  29     0.0002271660      -0.0001840516  -11946.0732119461    15.94  
+  30     0.0001948313      -0.0003042750  -11946.0735162211    18.16  
+  31     0.0001335490      -0.0000461894  -11946.0735624105    15.13  
+  32     0.0001307101      -0.0000647385  -11946.0736271490    17.37  
+  33     0.0001037538      -0.0000430133  -11946.0736701623    29.60  
+  34     0.0000930084      -0.0000291179  -11946.0736992802    16.44  
+  35     0.0000673143      -0.0000332813  -11946.0737325615    15.40  
+  36     0.0000541153      -0.0000209765  -11946.0737535380    14.61  
+  37     0.0000507446      -0.0000297231  -11946.0737832610    16.94  
