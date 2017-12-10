@@ -1,0 +1,2 @@
+@ to debug qm refinement, same parameters for qm refinement, except restraints=cctbx
+qr.refine ../../1bdw/1bdw_gly_refine_001.mtz ../../1bdw/1bdw_gly_refine_001_complete.pdb_modified.pdb  altloc_method=average restraints=cctbx clustering=true  mode=refine maxnum_residues_in_cluster=6    stpmax=0.5 max_iterations=50   number_of_macro_cycles=1 two_buffers=false charge_embedding=true  charge_cutoff=5  restraints_weight_scale=8.0 nproc=40  > cluster_cctbx_refine.log 2>&1 &
