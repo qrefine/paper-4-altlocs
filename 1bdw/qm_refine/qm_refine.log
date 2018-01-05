@@ -736,4 +736,7 @@ At start of further refinement:
      6 Rw: 0.2157 Rf: 0.2611 Rf-Rw: 0.0454 rmsd(b):  0.0155 rws: 64.0 n_fev: 255
 Start further refinement:
      7 Rw: 0.2345 Rf: 0.2959 Rf-Rw: 0.0613 rmsd(b):  0.0158 rws: 64.0 n_fev: 307
+     8 Rw: 0.2627 Rf: 0.3148 Rf-Rw: 0.0521 rmsd(b):  0.0163 rws: 128.0 n_fev: 359
+     9 Rw: 0.2883 Rf: 0.3189 Rf-Rw: 0.0305 rmsd(b):  0.0167 rws: 256.0 n_fev: 411
+    10 Rw: 0.2911 Rf: 0.3289 Rf-Rw: 0.0378 rmsd(b):  0.0166 rws: 256.0 n_fev: 463
 
