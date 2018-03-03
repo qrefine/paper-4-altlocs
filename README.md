@@ -8,3 +8,5 @@ Data storage for paper 4 (alternate locations)
 1aie_refine_001_complete.pdb  ----run 1aie_refine_001.pdb through qr.finalise
 
 1aie_refine_001_complete_modified.pdb  ----set occupancies of H to 0 in finalised model
+
+1aie_trim - removal of three waters on special positions 
