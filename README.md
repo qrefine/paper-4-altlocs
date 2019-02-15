@@ -12,6 +12,6 @@ Data storage for paper 4 (alternate locations)
 1aie_trim - removal of three waters on special positions 
 
 ------------------------
-Terachem refinement with phenix-dev-3407 & starting from 1aie_trim_refine_001_complete.pdb_modified.pdb
+Terachem refinement with phenix-dev-3407 & Q|R v1.0-39-g395e87 starting from 1aie_trim_refine_001_complete.pdb_modified.pdb
 
 HF-D3/6-31G+COSMO water solvent
