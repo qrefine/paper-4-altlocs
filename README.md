@@ -15,3 +15,8 @@ Data storage for paper 4 (alternate locations)
 Terachem refinement with phenix-dev-3407 & Q|R v1.0-39-g395e87 starting from 1aie_trim_refine_001_complete.pdb_modified.pdb
 
 HF-D3/6-31G+COSMO water solvent
+
+-----------------------
+
+3q8j is a high resolution structure found by Pavel.
+It is 0.87 A resolution, P1 symmetry. 
