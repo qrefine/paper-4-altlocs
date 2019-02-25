@@ -9,7 +9,9 @@ Data storage for paper 4 (alternate locations)
 
 1aie_refine_001_complete_modified.pdb  ----set occupancies of H to 0 in finalised model
 
-1aie_trim - removal of three waters on special positions 
+1aie_trim - removal of three waters on special positions as indicated in the refinement of 1aie.pdb
+
+Each step was repeated on 1aie_trim.pdb to produce 1aie_trim_refine_001_complete_modified.pdb
 
 ------------------------
 Terachem refinement with phenix-dev-3407 & Q|R v1.0-39-g395e87 starting from 1aie_trim_refine_001_complete.pdb_modified.pdb
