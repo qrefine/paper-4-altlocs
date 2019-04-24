@@ -25,3 +25,5 @@
 
 #Ignore files
 *.sp text
+* linguist-vendored
+*.py linguist-vendored=false
