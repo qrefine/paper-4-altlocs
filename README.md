@@ -15,6 +15,8 @@ Each step was repeated on 1aie_trim.pdb to produce 1aie_trim_refine_001_complete
 
 ------------------------
 NEW initial files with phenix-dev-3587 : NO NEED TO REMOVE WATERS, not present in the 1aie_refine_001_complete_modified.pdb 
+
+cp 1aie_refine_001_complete.pdb_modified.pdb 1aie_15Aug.pdb
 -----------------------
 Terachem refinement with phenix-dev-3407 & Q|R v1.0-39-g395e87 starting from 1aie_trim_refine_001_complete.pdb_modified.pdb
 
