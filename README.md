@@ -14,7 +14,7 @@ Data storage for paper 4 (alternate locations)
 Each step was repeated on 1aie_trim.pdb to produce 1aie_trim_refine_001_complete_modified.pdb
 
 ------------------------
-NEW initial files with phenix-dev-3587 : NO NEED TO REMOVE WATERS, not present in the 1aie_refine_001_complete_modified.pdb 
+NEW initial files : NO NEED TO REMOVE WATERS, not present in the 1aie_refine_001_complete.pdb 
 
 cp 1aie_refine_001_complete.pdb_modified.pdb 1aie_15Aug.pdb
 -----------------------
