@@ -9,14 +9,16 @@ Data storage for paper 4 (alternate locations)
 
 1aie_refine_001_complete_modified.pdb  ----set occupancies of H to 0 in finalised model (phenix.pdbtools 1aie_refine_001_complete.pdb occupancies.set=0 modify.selection="element H")
 
-1aie_trim - removal of three waters on special positions as indicated in the refinement of 1aie.pdb (A1009, A1035 and A1036)
+1aie_trim_g - removal of three waters on special positions from 1aie.pdb as indicated in the refinement of 1aie.pdb (A1009, A1035 and A1036)
 
-Each step was repeated on 1aie_trim.pdb to produce 1aie_trim_refine_001_complete_modified.pdb
+Each step was repeated on 1aie_trim_g.pdb 
 
-------------------------
-NEW initial files : NO NEED TO REMOVE WATERS, not present in the 1aie_refine_001_complete.pdb 
-
-cp 1aie_refine_001_complete.pdb_modified.pdb 1aie_15Aug.pdb
+1. phenix.refine 1aie_trim_g.pdb 1aie.mtz  - > 1aie_trim_g_refine_001.pdb 1aie_trim_g_refine_001.mtz
+2. qr.finalise 1aie_trim_g_refine_001.pdb -> 1aie_trim_g_refine_001_complete.pdb
+3. phenix.pdbtools 1aie_trim_g_refine_001_complete.pdb occupancies.set=0 modify.selection="element H" -> 1aie_trim_g_refine_001_complete.pdb_modified.pdb
+ 
+----------------
+cp 1aie_trim_g_refine_001_complete.pdb_modified.pdb 1aie_trim_g_19Aug.pdb
 -----------------------
 Terachem refinement with phenix-dev-3407 & Q|R v1.0-39-g395e87 starting from 1aie_trim_refine_001_complete.pdb_modified.pdb
 
