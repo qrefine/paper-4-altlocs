@@ -1,0 +1,1 @@
+qr.refine  3k0n_complete.pdb mode=gtest  two_buffer=1 g_scan='1 2 5 10 15 20 25 50'  maxnum_residues_in_cluster=50 quantum.nproc=12 parallel.nproc=2  max_bond_rmsd=0.04  stpmax=0.2  gradient_only=true clustering=true use_convergence_test=true opt_log=1 restraints=qm  engine_name=xtb  >3k0n_xtb_gtest.log 2>&1 &

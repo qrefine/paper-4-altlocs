@@ -1,0 +1,3 @@
+nohup qr.refine 3k0n_complete.pdb  3k0n.mtz  mode=refine   max_bond_rmsd=0.02  stpmax=0.2 gradient_only=true clustering=true fast_interaction=true use_convergence_test=true  opt_log=1 restraints=qm  engine_name=xtb  > qr_3k0n_xtb_stpmax02_TEST20Aug.log 2>&1
+
+
