@@ -25,7 +25,7 @@ of altlocs and they are key to the biological function of this protein.
 
 			Outliers	0	0	0
 	
-		Z-score			-0.699	-0.490	-0.641
+		Z-score		-0.699	-0.490	-0.641
 	
 		Rotamer outliers (%)	1.23	0.6	0.6
 
